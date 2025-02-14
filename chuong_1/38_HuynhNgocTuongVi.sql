@@ -59,6 +59,7 @@ WHERE MaNV = 2;
 SELECT PhongBan, COUNT(*) AS SoLuongNhanVien
 FROM NhanVien
 GROUP BY PhongBan;
+---Không gặp vấn đề trong việc chuyển đổi thông tin 
 
 #8.Xoá nhân viên có "MaSV=2" rồi cho biết mõi phong ban có bao nhiêu người
 DELETE FROM NhanVien 
